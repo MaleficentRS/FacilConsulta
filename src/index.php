@@ -1,8 +1,7 @@
 <?php
     require_once "controller/class.php";
     
-    $template = new Controller();
-    $template->Url();
-    $template->Template();
-    
+    $pagina = new Controller();
+    $pagina->Url();
+    $pagina->Template();
 ?>

@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title><?php echo $pagina_titulo; ?></title>
+        <?php
+            $pagina = new Controller();
+            $pagina->Url();
+        ?>
+
+        <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="model/css/style.css">
+        <script src="controller/funcoes.js"></script>
     </head>
     <body>
         <header>
             <nav>
-                <button name="cadastro_medico" type="button">Cadastro de médico</button>
+                <button id="cadastro_medico" name="cadastro_medico" type="button">Cadastro de médico</button>
                 <br class="clear">
             </nav>
         </header>
         <main>
             <?php
-                $pagina = new Controller();
-                $pagina->Url();
                 $pagina->View('');
             ?>
         </main>
