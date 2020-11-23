@@ -1,0 +1,120 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Signika';
+    src: url('../fonts/signika-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Signika_Bold';
+    src: url('../fonts/signika-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.clear {
+    clear: both;
+}
+
+/*Header*/
+body { 
+    margin: 0 auto;
+    background-color: #EFEFEF;
+    font-family: 'Signika';
+}
+
+header {
+    width: 100%;
+    height: 120px;
+    background-color: #0094CF;
+    margin: 0 auto;
+    font-family: 'Signika';
+}
+
+header nav {
+    width: 85%;
+    max-width: 1134px;
+    height: auto;
+    margin:0 auto;
+    padding-top: 28px;
+}
+
+header button {
+    width: 281px;
+    height: 65px;
+    background: #FFF;
+    border:none;
+    border-radius: 8px;
+    float: right;
+    margin:0 auto;
+    font-family: 'Signika';
+    color: #0094CF;
+    font-size: 24px;
+    padding-left: 7px;
+}
+/*Header*/
+
+/*Main*/
+main { 
+    font-family: 'Signika';
+    padding-top: 83px;
+    width: 85%;
+    max-width: 1134px;
+    margin: 0 auto;
+}
+
+main section {
+    margin: 0 0 33px 0;
+    background-color: #FFF;
+    padding: 31px 0 51px 0;
+}
+
+main h1 {
+    font-family: 'Signika_Bold';
+    float: left;
+    font-size: 2.2em;
+    font-weight: bold;
+    color: #004768;
+    padding: 0 0 0 31px;
+    margin: 0;
+}
+
+main nav {
+    float: right;
+    padding: 0 31px 40px 0;
+}
+
+main nav button {
+    font-family: 'Signika';
+    height: 34px;
+    margin-left: 12px;
+    color: #0094CF;
+    background-color: #FFF;
+    border: solid 3px #0094CF;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 0 17px;
+}
+
+main ul {
+    padding: 0 0 0 31px; 
+}
+
+main li {
+    float: left;
+    list-style-type: none;
+    padding: 0 28px 30px 0;  
+    margin: 0;
+}
+
+main li button {
+    height: 47px;
+    font-family: 'Signika';
+    font-size: 24px;
+    color: #FFF;
+    background-color: #0094CF;
+    padding: 0 16px;
+    border: none;
+    border-radius: 7px;
+}
+/*Main*/

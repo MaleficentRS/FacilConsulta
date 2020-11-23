@@ -1,5 +1,8 @@
 <?php
-
-/*
-* É recomendado que todo o carregamente seja feito apartir desse arquivo.
-*/
+    require_once "controller/class.php";
+    
+    $template = new Controller();
+    $template->Url();
+    $template->Template();
+    
+?>
